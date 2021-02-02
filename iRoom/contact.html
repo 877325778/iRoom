@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>iRoom</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+   <div class="container">
+       <header>
+        <a href="http://127.0.0.1:5500/home.html#" class="logo" id="logo"> 
+           <img src="images/iRoom-logo-white.svg" alt="iRoom">
+        </a>
+
+        <nav>
+            <a href="#" class= "hide-desktop">
+               <img src="images/ham.svg" alt="toggle menu" class= "menu" id= "menu">
+            </a>
+               <ul class= "show-desktop hide-mobile" id= "nav">
+                   <li id= "exit" class= "exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                   
+                
+                <li><a href="http://127.0.0.1:5500/startroom.html#" class="startroomsmall" >
+                    start room
+                </a></li>
+
+                <li><a href="http://127.0.0.1:5500/joinroom.html#" class="joinroomsmall">
+                    join room
+                </a></li>
+                
+                <li><a href="http://127.0.0.1:5500/aboutus.html#" class= "aboutus">
+                    about us
+                </a></li>
+        
+                <li><a href="#" class= "contact">
+                    contact
+                </a></li>
+               </ul>
+       </nav>
+
+       </header>
+
+       
+
+        <div class="headlines">
+        <h1 class="header">The best replacement for social gatherings and parties</h1>
+        <p class="subheader">A whole new and secure way to meet more than two friends online </p>
+        </div>
+
+        
+            
+        
+        
+        <div class="bigbuttons">
+        <ul>
+         <li>
+            <a href="http://127.0.0.1:5500/startroom.html#" class="startroombig">start room</a>
+        </li>
+
+        <li>
+            <a href="http://127.0.0.1:5500/joinroom.html#" class="joinroombig">join room</a>
+        </li>
+        </ul>
+        
+        </div>
+
+   </div> 
+
+   <script>
+
+       var menu = document.getElementById('menu')
+       var nav = document.getElementById('nav')
+       var exit = document.getElementById('exit')
+       var startroom = document.getElementById('')
+
+       menu.addEventListener('click',function(e){
+           nav.classList.toggle('hide-mobile');
+           e.preventDefault();
+       });
+      
+       exit.addEventListener('click',function(e){
+           nav.classList.add('hide-mobile');
+           e.preventDefault();
+       });
+
+
+
+   </script>
+   
+</body>
+
+</html>

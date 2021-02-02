@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>iRoom</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+   <div class="container">
+       <div class = "navbar">
+       <header>
+        <a href="http://127.0.0.1:5500/home.html#" class="logo" id="logo"> 
+           <img src="images/iRoom-logo-white.svg" alt="iRoom">
+        </a>
+
+        <nav>
+            <a href="#" class= "hide-desktop">
+               <img src="images/ham.svg" alt="toggle menu" class= "menu" id= "menu">
+            </a>
+               <ul class= "show-desktop hide-mobile" id= "nav">
+                   <li id= "exit" class= "exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                   
+                
+                <li><a href="http://127.0.0.1:5500/startroom.html#" class="startroomsmall" >
+                    start room
+                </a></li>
+
+                <li><a href="http://127.0.0.1:5500/joinroom.html#" class="joinroomsmall">
+                    join room
+                </a></li>
+                
+                <li><a href="http://127.0.0.1:5500/aboutus.html#" class= "aboutus">
+                    about us
+                </a></li>
+        
+                <li><a href="#" class= "contact">
+                    contact
+                </a></li>
+               </ul>
+       </nav>
+       
+
+       </header>
+         </div>
+         
+      <div class="mainpage"> 
+       
+
+        <div class="headlines">
+        <h1 class="header">The best replacement for social gatherings and parties</h1>
+        <p class="subheader">A whole new and secure way to meet more than two friends online </p>
+        </div>
+
+        
+            
+        
+        
+        <div class="bigbuttons">
+        <ul>
+         <li>
+            <a href="http://127.0.0.1:5500/startroom.html#" class="startroombig">start room</a>
+        </li>
+
+        <li>
+            <a href="http://127.0.0.1:5500/joinroom.html#" class="joinroombig">join room</a>
+        </li>
+        </ul>
+        
+        </div>
+        <div class="tutorial">
+            <div class="tutorialHeader">
+                <h1 class = "header"> How to use iRoom</h1>
+                <p class="subheader">A step by step guide to meeting your friends in iRoom</p>
+            </div>
+            <div class="tutorialStep">
+                <div class="stepOne aStep">
+                    <div class="tutorialImageOneDiv tutorialImageDivs">
+                        <img class= "tutorialImages turorialImageOne" src="images/homepage.png" title= "a picture of the homepage of iRoom" alt="a picture of the homepage of iRoom">
+                    </div>
+                    <div class="tutorialTextOneDiv">
+                        <p class= "tutorialText"> This is the homepage of iRoom. 
+                            If you already have a link to a Room,<br>
+                            please click on "join room". 
+                            If you want to create a new Room,<br>
+                            please click on "start room"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stepTwo aStep">
+                    <div class="tutorialImageTwoDiv tutorialImageDivs">
+                        <img class= "tutorialImages turorialImageTwo" src="images/startRoom.png" title= "a picture of start Room page of iRoom" alt="a picture of start Room page of iRoom">
+                    </div>
+                    <div class="tutorialTextTwoDiv">
+                        <p class= "tutorialText"> If you have clicked on "start room", <br> 
+                            this window will appear. <br>
+                            You can click on "copy link" to copy <br>
+                            and send the link to the people who you <br>
+                            want to be in your Room with. <br>
+                            Please note, that you can always <br>
+                            return to the homepage by clicking on <br>
+                            the iRoom logo in the top left corner. <br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stepThree aStep">
+                    <div class="tutorialImageThreeDiv tutorialImageDivs">
+                        <img class= "tutorialImages turorialImageThree" src="images/joinRoom.png" title= "a picture of the join Room page of iRoom" alt="a picture of the join Room page of iRoom">
+                    </div>
+                    <div class="tutorialTextThreeDiv">
+                        <p class= "tutorialText"> If you have clicked on "join room", <br>
+                            this site will emerge. <br>
+                            You can now copy the link you have <br>
+                            recieved from your host and click on <br>
+                            "join room" again to enter the room. 
+                            If you want to create a new Room,<br>
+                            you once again have the opportunity to <br>
+                            click on "start room".
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stepFour aStep">
+                    <div class="tutorialImageFourDiv tutorialImageDivs">
+                        <img class= "tutorialImages turorialImageFour" src="images/inTheCall.png" title= "a picture of the iRoom" alt="a picture of the iRoom">
+                    </div>
+                    <div class="tutorialTextFourDiv">
+                        <p class= "tutorialText"> This is your Room! <br>
+                            You can talk to people by dragging you <br>
+                            image towards them until you can hear them loud enough. <br>
+                            You can also navigate with your direction keys. <br>
+                            The Team of iRoom wishes you a good session.
+                            Have fun!
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+   </div> 
+
+   <script>
+
+       var menu = document.getElementById('menu')
+       var nav = document.getElementById('nav')
+       var exit = document.getElementById('exit')
+       var startroom = document.getElementById('')
+
+       menu.addEventListener('click',function(e){
+           nav.classList.toggle('hide-mobile');
+           e.preventDefault();
+       });
+      
+       exit.addEventListener('click',function(e){
+           nav.classList.add('hide-mobile');
+           e.preventDefault();
+       });
+
+
+
+   </script>
+   
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+<svg id="Komponente_1_1" data-name="Komponente 1 – 1" xmlns="http://www.w3.org/2000/svg" width="108.002" height="45.643" viewBox="0 0 108.002 45.643">
+  <text id="iRoom" transform="translate(10.002 38.643)" fill="#fff" stroke="#f8f8f8" stroke-width="1" font-size="30" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="0">iRoom</tspan></text>
+  <rect id="Rechteck_2" data-name="Rechteck 2" width="31" height="6" rx="3" transform="translate(0 19.926) rotate(-40)" fill="#5084d8"/>
+  <rect id="Rechteck_3" data-name="Rechteck 3" width="31" height="6" rx="3" transform="translate(23.434 0.026) rotate(40)" fill="#00cc80"/>
+</svg>

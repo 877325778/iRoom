@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <title>iRoom</title>
+    <link rel="stylesheet" href="css/audiocontrol.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <div class="container">
+        <header>
+                <a href="http://127.0.0.1:5500/home.html#" class="logo" id="logo"> 
+                <img src="images/iRoom-logo-white.svg" alt="iRoom">
+                </a>
+
+            <nav>
+                    <a href="#" class= "hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class= "menu" id= "menu">
+                    </a>
+
+                    <ul class= "show-desktop hide-mobile" id= "nav">
+
+                        <li id= "exit" class= "exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                        
+                        
+                        <li><a href="http://127.0.0.1:5500/startroom.html#" class="startroomsmall" >
+                            start room
+                        </a></li>
+
+                        <li><a href="http://127.0.0.1:5500/joinroom.html#" class="joinroomsmall">
+                            join room
+                        </a></li>
+                        
+                        <li><a href="http://127.0.0.1:5500/aboutus.html#" class= "aboutus">
+                            about us
+                        </a></li>
+                
+                        <li><a href="#" class= "contact">
+                            contact
+                        </a></li>
+
+                    </ul>
+            </nav>
+
+        </header>
+
+
+                <div class="videochat">
+
+                <div class="videos">
+
+                    <div id="rickRollDiv">
+                        <video src="videos/rickErsatz.mp4" autoplay loop class="rickRoll" id="rickRoll" ></video>
+                    </div>
+
+                    <div id="shrekDiv">
+                        <video src="videos/shrekErsatz.mp4" autoplay loop class="shrek" id="shrek" ></video>
+                    </div>
+
+                    <div id="crabRaveDiv">
+                        <video src="videos/crabErsatz.mp4"  autoplay loop class="crab" id="crab"></video>
+                    </div>
+            
+                    <div id="MyVideo">
+
+                        <video class="local-video" id= "local-video" autoplay playsinline></video>
+                    </div>
+                    
+
+                    
+
+                    
+                    
+            
+                
+                </div>
+        </div>
+   </div> 
+
+   
+
+   <script src="js/audiocontrol.js"></script>
+   
+</body>
+
+</html> 
